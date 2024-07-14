@@ -12,7 +12,7 @@ const app = express();
 
 app.use(cors({
     credentials: true,
-    origin: "http://localhost:3000",
+    origin: "https://blog-app-frontend-green.vercel.app/",
     methods:["GET", "POST", "PATCH", "DELETE"]
 }));
 app.use(express.json({ extended: true }));
